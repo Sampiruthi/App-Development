@@ -1,0 +1,88 @@
+.Signup-page
+{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/625/480/original/vector-abstract-geometric-background-in-light-colors.jpg");
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-signup
+{
+    font-size: 30px;
+}
+.page-abc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    padding:50px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+.signup-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.username
+{
+    padding-top:15px;
+}
+.signup-email
+{
+    padding-top:15px;
+}
+.signup-password
+{
+    padding-top:15px;
+}
+#input-username
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: purple;
+    height: 30px;
+    width:200px;
+}
+#input-email
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: purple;
+    height: 30px;
+    width:200px;
+}
+#input-pwd
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: purple;
+    height: 30px;
+    width:200px;    
+}
+.signup-button
+{
+    margin-top: 10px;
+
+}
+.signup-message
+{
+    color:rgb(95, 11, 83);
+}
+@media (max-width:450px)
+{
+    .page-abc{
+        padding: 30px;
+    }
+}
