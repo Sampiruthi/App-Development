@@ -1,0 +1,198 @@
+.aheader {
+    position: relative; 
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #333;
+}
+
+.aheader::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    background-image: url("https://img.freepik.com/free-photo/female-wedding-planner-working-ceremony_23-2150167261.jpg?t=st=1731562439~exp=1731566039~hmac=d6c52eb9f897cc4fc6f17854586d13e8fe20682ad0c48d2ccc3c55d795bb66fe&w=996"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.6;
+    z-index: -1; 
+}
+.anavbar-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(0, 0, 0, 0.27);
+}
+.anavbar-sub a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image-57-6{
+    height: 80px;
+    margin-right: 20px;
+    width: 270px;
+}
+.anavbar-sub a:active {
+    transform: scale(0.95);
+}
+.anavbar-sub a:hover {
+    background: rgba(214, 189, 189, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(214, 189, 189, 0.27);
+    transform: scale(1.05);
+}
+.eventlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .eventlist h3 {
+    margin-bottom: 20px;
+    margin-left:25px;
+  }
+  .cards{
+    display: flex;
+    flex-direction: row;
+  }
+  .event-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-card .MuiCardContent-root {
+    padding: 16px;
+  }
+  
+  .event-card .MuiTypography-root {
+    margin-bottom: 8px;
+    font-size: 1rem; 
+  }
+  
+  .event-card .MuiCardActions-root {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+.aprofile-dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.adropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.adropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 0;
+}
+
+.adropdown-content a:hover {
+    background-color: #913030;
+    border-radius: 0;
+    color:white;
+}
+
+.aprofile-dropdown:hover .adropdown-content {
+    display: block;
+}
+.event-image {
+  border-radius: 16px;
+}
+.event-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.event-card:hover {
+  transform: scale(1.05); /* Adjust scale as needed */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a more pronounced effect */
+}
+.aour_event {
+  text-align: center;
+  margin: 20px 0;
+  width:500px;
+}
+
+.aour_event h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #6200ee; /* or your preferred focus color */
+  outline: none;
+}
+.add-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 10px; */
+  margin-left:30px;
+}
+
+.add-icon {
+  color: black;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.add-icon:hover {
+  transform: scale(1.1);
+  color: #3f51b5; /* Change color on hover */
+}

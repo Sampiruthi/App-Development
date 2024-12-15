@@ -1,0 +1,92 @@
+.page {
+  background-image: url("https://americanpavilion.com/wp-content/uploads/2018/04/Corporate-Event.jpg");
+  background-position: center center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container {
+  padding: 40px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.abc {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.email,
+.password,
+.role,
+.lusername {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+#e,
+#p,
+#role,
+#u {
+  border-radius: 10px;
+  height: 37px;
+  width: 100%;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#role {
+  height: 45px;
+  padding: 5px;
+}
+
+#star {
+  color: red;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.error {
+  color: #e57373;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 20px;
+  }
+
+  #e,
+  #p,
+  #role {
+    font-size: 14px;
+  }
+}

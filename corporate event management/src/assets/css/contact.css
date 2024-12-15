@@ -1,0 +1,134 @@
+.contact {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 600px; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif; 
+}
+
+.address, .phone, .mail {
+    flex: 1 1 calc(33.33% - 20px); 
+    background-color: #ffffff; 
+    margin: 10px; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.address p, .phone p, .mail p {
+    margin: 10px 0; 
+    color: #333; 
+}
+
+.address svg, .phone svg, .mail svg {
+    color: #c26033; 
+    font-size: 2em; 
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 600px) {
+    .address, .phone, .mail {
+        flex: 1 1 100%; 
+        margin: 10px 0; 
+    }
+}
+.form {
+    background-image: url("https://img.freepik.com/free-photo/group-friends-eating-restaurant_23-2148006603.jpg?t=st=1722235136~exp=1722238736~hmac=647498b1e53da3605d3e7a78fe9943399066dc99a8bf449ac68d84428f3953be&w=996");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.form {
+    background-image: url("https://img.freepik.com/free-photo/group-friends-eating-restaurant_23-2148006603.jpg?t=st=1722235136~exp=1722238736~hmac=647498b1e53da3605d3e7a78fe9943399066dc99a8bf449ac68d84428f3953be&w=996");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+
+.contactform h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.fullname, .email, .enquiry {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type='text'], input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.enquiry input{
+    height:200px;
+    width:300px;
+}
+Button {
+    margin-top: 20px;
+    padding: 10px 20px; 
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+}
+
+Button:hover {
+    background-color: #0056b3;
+}
+.error
+{
+    color:red;
+}

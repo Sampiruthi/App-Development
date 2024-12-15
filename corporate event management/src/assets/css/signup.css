@@ -1,0 +1,61 @@
+.Signup-page {
+    background-image: url("https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-signup {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.page-abc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-button {
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.signup-message {
+    color: green;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+@media (max-width: 450px) {
+    .page-abc {
+        padding: 30px;
+    }
+}

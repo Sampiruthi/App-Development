@@ -1,0 +1,88 @@
+
+.eventform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.addeveform {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.addeveform h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.addeveform .type,
+.addeveform .desc,
+.addeveform .package,
+.addeveform .count,
+.addeveform .charges {
+  margin-bottom: 15px;
+}
+
+.addeveform label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.addeveform input[type="text"],
+.addeveform input[type="number"],
+.addeveform textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.addeveform textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.addeveform input[type="text"]:focus,
+.addeveform input[type="number"]:focus,
+.addeveform textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.addeveform .MuiButton-root {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.addeveform .MuiButton-root:hover {
+  background-color: #0056b3;
+}
+
+.addeveform .MuiButton-root:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.25);
+}
